@@ -74,7 +74,7 @@
     </section>
     <!-- quienes somos -->
     <section class="container" id="quienesSomos">
-        <h1 class="text-center fw-bold border-bottom border-dark border-4 py-2 mx-4">Quienes Somos</h1>
+        <h1 class="text-center fw-bold border-bottom border-dark border-4 py-2 mx-4 mt-4">Quienes Somos</h1>
         <div class="row py-3">
             <div class="col-4">
                 <header class="bg-info text-center py-1"><i class="fa-solid fa-plane fa-2x"></i></header>
@@ -98,8 +98,8 @@
     </section>
     <!-- destacados -->
     <section class="container" id="destacados">
-        <h1 class="text-center fw-bold border-bottom border-dark border-4">Destacados</h1>
-        <div class="row">
+        <h1 class="text-center fw-bold border-bottom border-dark border-4 py-2 mt-4">Destacados</h1>
+        <div class="row py-3">
             <div class="col-3">
                 <img src="./assets/img/card1.jpg" alt="card1" class="img-fluid">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit laborum eum suscipit magni maiores?
@@ -127,7 +127,42 @@
         </div>
     </section>
     <!-- contacto -->
+    <section class="container" id="contacto">
+        <h1 class="text-center fw-bold border-bottom border-dark border-4 py-2 mt-4">Contacto</h1>
+        <form class="py-3" action="">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Fulanito Perez">
+              </div>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="d-flex justify-content-start">
+              <button class="btn btn-info" id="blanco">Enviar</button>
+            </div>
+        </form>
+    </section>
     <!-- footer -->
+    
+    <footer class="container-fluid bg-info py-2">
+       <div class="row">
+        <div class="col-6 text-center">
+            <h2>VIAJES CHILE</h2>
+        </div>
+        <div class="col-6 text-center">
+            <a href="" class="d-inline px-2" id="blanco"><i class="fa-brands fa-github-square fa-3x"></i></a>
+            <a href="" class="d-inline px-2" id="blanco"><i class="fa-brands fa-linkedin fa-3x"></i></a>
+            <a href="" class="d-inline px-2" id="blanco"><i class="fa-brands fa-twitter-square fa-3x"></i></a>
+            <a href="" class="d-inline px-2" id="blanco"><i class="fa-brands fa-facebook-square fa-3x"></i></a>
+        </div>
+    </div>
+
+    </footer>
     <!-- conexiones -->
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
