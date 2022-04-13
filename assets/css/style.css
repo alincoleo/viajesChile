@@ -1,3 +1,4 @@
+/* colores */
 body{
     background-color: black;
     color:white;
@@ -5,3 +6,7 @@ body{
 #blanco{
     color:white;
 }
+h5{
+    color: aquamarine;
+}
+/* fuentes */
