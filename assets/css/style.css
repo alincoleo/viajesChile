@@ -1,12 +1,22 @@
 /* colores */
-body{
+body {
     background-color: black;
-    color:white;
+    color: white;
 }
-#blanco{
-    color:white;
+
+#blanco {
+    color: white;
 }
-h5{
+
+h5 {
     color: aquamarine;
 }
+
 /* fuentes */
+* {
+    font-family: 'Lobster', cursive;
+}
+
+p {
+    font-family: 'Rubik Glitch', cursive;
+}

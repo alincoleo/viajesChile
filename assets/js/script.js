@@ -7,12 +7,14 @@ $(document).ready(function () {
       var hash = this.hash;
       $('html').animate({
         scrollTop: $(hash).offset().top
-      }, 2000, function () {
-        window.location.hash = hash;
-      });
+      },
+        1600, function () {
+          window.location.hash = hash;
+        });
     }
   });
 })
+
 // asegurando funcionalidad
 // poppover
 // var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
