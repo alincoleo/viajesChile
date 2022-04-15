@@ -1,6 +1,10 @@
 # Viajes Chile
 
 Evaluación para finalizar el modulo fundamentos front end
+repositorio:
+https://github.com/alincoleo/viajesChile
+Despliegue de página:
+https://alincoleo.github.io/viajesChile/
 
 ## Comenzando 🚀
 
